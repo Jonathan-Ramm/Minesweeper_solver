@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minesweeper Bot Test</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; }
+    #board {
+      display: grid;
+      grid-template-columns: repeat(9, 30px);
+      grid-template-rows: repeat(9, 30px);
+      gap: 2px;
+    }
+    .cell {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #999;
+      text-align: center;
+      line-height: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      user-select: none;
+    }
+    .hdd_closed { background-color: #aaa; }
+    .hdd_opened { background-color: #ddd; cursor: default; }
+    .hdd_flag { background-color: orange !important; }
+    .hdd_flag::after { content: "🚩"; font-size: 18px; }
+
+    .hdd_type1 { color: blue; }
+    .hdd_type2 { color: green; }
+    .hdd_type3 { color: red; }
+    .hdd_type4 { color: navy; }
+    .hdd_type5 { color: maroon; }
+    .hdd_type6 { color: teal; }
+    .hdd_type7 { color: black; }
+    .hdd_type8 { color: gray; }
+    .hdd_type0 { color: transparent; }
+    .hdd_type10 { background-color: red; color: white; }
+  </style>
+</head>
+<body>
+
+<h2>Minesweeper (Bot-kompatibel)</h2>
+<button id="top_area_face" onclick="restart()">🙂 Restart</button>
+<div id="board"></div>
+
+<script>
+const SIZE = 9;
+const MINES = 10;
+let board = [], revealed = [], flagged = [], gameOver = false;
+
+function restart() {
+  gameOver = false;
+  document.getElementById("top_area_face").textContent = "🙂";
+  board = Array(SIZE).fill().map(() => Array(SIZE).fill(0));
+  revealed = Array(SIZE).fill().map(() => Array(SIZE).fill(false));
+  flagged = Array(SIZE).fill().map(() => Array(SIZE).fill(false));
+  generateMines();
+  drawBoard();
+}
+
+function generateMines() {
+  let count = 0;
+  while (count < MINES) {
+    let x = Math.floor(Math.random() * SIZE);
+    let y = Math.floor(Math.random() * SIZE);
+    if (board[x][y] === -1) continue;
+    board[x][y] = -1;
+    count++;
+    for (let dx = -1; dx <= 1; dx++) {
+      for (let dy = -1; dy <= 1; dy++) {
+        let nx = x + dx, ny = y + dy;
+        if (nx >= 0 && nx < SIZE && ny >= 0 && ny < SIZE && board[nx][ny] !== -1) {
+          board[nx][ny]++;
+        }
+      }
+    }
+  }
+}
+
+function drawBoard() {
+  const b = document.getElementById("board");
+  b.innerHTML = "";
+  for (let x = 0; x < SIZE; x++) {
+    for (let y = 0; y < SIZE; y++) {
+      const div = document.createElement("div");
+      div.className = "cell hdd_closed start";
+      div.setAttribute("data-x", x);
+      div.setAttribute("data-y", y);
+
+      div.addEventListener("click", () => handleClick(x, y));
+      div.addEventListener("contextmenu", e => {
+        e.preventDefault();
+        toggleFlag(x, y);
+      });
+
+      b.appendChild(div);
+    }
+  }
+}
+
+function handleClick(x, y) {
+  if (gameOver || revealed[x][y] || flagged[x][y]) return;
+  const cell = getCell(x, y);
+
+  if (board[x][y] === -1) {
+    cell.className = "cell hdd_opened hdd_type10";
+    cell.textContent = "💣";
+    gameOver = true;
+    document.getElementById("top_area_face").textContent = "💀";
+    return;
+  }
+
+  reveal(x, y);
+  checkWin();
+}
+
+function reveal(x, y) {
+  if (x < 0 || x >= SIZE || y < 0 || y >= SIZE) return;
+  if (revealed[x][y] || flagged[x][y]) return;
+
+  const val = board[x][y];
+  const cell = getCell(x, y);
+  cell.className = `cell hdd_opened hdd_type${val}`;
+  if (val > 0) cell.textContent = val;
+  revealed[x][y] = true;
+
+  if (val === 0) {
+    for (let dx = -1; dx <= 1; dx++) {
+      for (let dy = -1; dy <= 1; dy++) {
+        if (dx !== 0 || dy !== 0) reveal(x + dx, y + dy);
+      }
+    }
+  }
+}
+
+function toggleFlag(x, y) {
+  if (revealed[x][y] || gameOver) return;
+  const cell = getCell(x, y);
+  flagged[x][y] = !flagged[x][y];
+  cell.classList.toggle("hdd_flag", flagged[x][y]);
+}
+
+function getCell(x, y) {
+  return document.querySelector(`.cell[data-x="${x}"][data-y="${y}"]`);
+}
+
+function checkWin() {
+  let closed = 0;
+  for (let x = 0; x < SIZE; x++) {
+    for (let y = 0; y < SIZE; y++) {
+      if (!revealed[x][y]) closed++;
+    }
+  }
+  if (closed === MINES) {
+    document.getElementById("top_area_face").textContent = "😎";
+    gameOver = true;
+  }
+}
+
+restart();
+</script>
+</body>
+</html>

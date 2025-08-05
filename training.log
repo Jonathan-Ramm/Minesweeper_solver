@@ -1,0 +1,465 @@
+2025-07-30 12:36:03,904 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:04,317 [INFO] [P0] Neues Spiel gestartet.
+2025-07-30 12:36:04,761 [INFO] [P1] Neues Spiel gestartet.
+2025-07-30 12:36:05,611 [INFO] [P2] Neues Spiel gestartet.
+2025-07-30 12:36:08,765 [INFO] [P2] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:08,942 [INFO] Modell synchronisiert.
+2025-07-30 12:36:09,530 [INFO] [P1] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:09,710 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:09,726 [INFO] Modell synchronisiert.
+2025-07-30 12:36:09,880 [INFO] Modell synchronisiert.
+2025-07-30 12:36:11,006 [INFO] [P2] Neues Spiel gestartet.
+2025-07-30 12:36:11,646 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_8_8" class="cell size24 hdd_closed"> is not clickable at point (242,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871770&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871770007&bpp=1&bdt=766&idt=182&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=2569262644523&frm=20&pv=1&u_tz=120&u_his=3&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093039%2C31093672%2C42532523%2C95362655%2C95363083%2C95366915%2C31093631%2C95366848%2C95359265%2C95367165&oid=2&pvsid=4297043496796758&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=188"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:11,680 [INFO] [P1] Neues Spiel gestartet.
+2025-07-30 12:36:11,781 [WARNING] [P0] Klickfehler: Message: Element <div id="cell_2_7" class="cell size24 hdd_closed"> is not clickable at point (98,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=9197417605&adk=2305020205&adf=2143349170&pi=t.ma~as.9197417605&w=728&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871764&rafmt=2&format=728x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4878344785&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871763966&bpp=1&bdt=1860&idt=585&shv=r20250728&mjsv=m202507240101&ptt=9&saldr=aa&abxe=1&eoidce=1&prev_fmts=0x0&nras=1&correlator=3492864455413&frm=20&pv=1&u_tz=120&u_his=2&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=254&ady=797&biw=1280&bih=887&scr_x=0&scr_y=0&eid=42531705%2C95362655%2C95366915%2C95367394%2C31093655%2C42533293%2C95366851%2C95359266%2C95367172&oid=2&pvsid=3636095177189884&tmod=9981979&uas=3&nvt=1&fc=1920&brdim=4%2C4%2C4%2C4%2C1920%2C0%2C1296%2C980%2C1280%2C887&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.01&ifi=2&uci=a!2&fsb=1&dtd=591"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:11,937 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:12,549 [WARNING] [P3] Klickfehler: Message: Element <div id="cell_1_8" class="cell size24 hdd_closed"> is not clickable at point (74,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871771&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871770881&bpp=1&bdt=710&idt=197&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D29ad575f84b67e82%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjbwbLPjDl0ZVo8c6gxkfknR&prev_fmts=0x0&nras=1&correlator=7545545962256&frm=20&pv=1&u_tz=120&u_his=3&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362655%2C95366794%2C95366914%2C95344790%2C95359266%2C95367166&oid=2&pvsid=4305748505889489&tmod=913216378&uas=0&nvt=1&fc=1920&brdim=1913%2C1096%2C1913%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=204"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:12,835 [WARNING] [P3] Klickfehler: Message: Element <div id="cell_1_8" class="cell size24 hdd_closed"> is not clickable at point (74,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871771&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871770881&bpp=1&bdt=710&idt=197&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D29ad575f84b67e82%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjbwbLPjDl0ZVo8c6gxkfknR&prev_fmts=0x0&nras=1&correlator=7545545962256&frm=20&pv=1&u_tz=120&u_his=3&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362655%2C95366794%2C95366914%2C95344790%2C95359266%2C95367166&oid=2&pvsid=4305748505889489&tmod=913216378&uas=0&nvt=1&fc=1920&brdim=1913%2C1096%2C1913%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=204"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:13,009 [WARNING] [P0] Klickfehler: Message: Element <div id="cell_2_7" class="cell size24 hdd_closed"> is not clickable at point (98,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=9197417605&adk=2305020205&adf=2143349170&pi=t.ma~as.9197417605&w=728&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871764&rafmt=2&format=728x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4878344785&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871763966&bpp=1&bdt=1860&idt=585&shv=r20250728&mjsv=m202507240101&ptt=9&saldr=aa&abxe=1&eoidce=1&prev_fmts=0x0&nras=1&correlator=3492864455413&frm=20&pv=1&u_tz=120&u_his=2&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=254&ady=797&biw=1280&bih=887&scr_x=0&scr_y=0&eid=42531705%2C95362655%2C95366915%2C95367394%2C31093655%2C42533293%2C95366851%2C95359266%2C95367172&oid=2&pvsid=3636095177189884&tmod=9981979&uas=3&nvt=1&fc=1920&brdim=4%2C4%2C4%2C4%2C1920%2C0%2C1296%2C980%2C1280%2C887&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.01&ifi=2&uci=a!2&fsb=1&dtd=591"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:13,053 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_7_7" class="cell size24 hdd_closed"> is not clickable at point (218,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871770&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871770007&bpp=1&bdt=766&idt=182&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=2569262644523&frm=20&pv=1&u_tz=120&u_his=3&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093039%2C31093672%2C42532523%2C95362655%2C95363083%2C95366915%2C31093631%2C95366848%2C95359265%2C95367165&oid=2&pvsid=4297043496796758&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=188"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:13,656 [INFO] [P0] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:13,805 [INFO] Modell synchronisiert.
+2025-07-30 12:36:15,746 [INFO] [P0] Neues Spiel gestartet.
+2025-07-30 12:36:16,860 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:16,975 [INFO] Modell synchronisiert.
+2025-07-30 12:36:17,007 [INFO] [P1] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:17,121 [INFO] Modell synchronisiert.
+2025-07-30 12:36:18,928 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:19,052 [INFO] [P1] Neues Spiel gestartet.
+2025-07-30 12:36:19,576 [INFO] [P2] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:19,682 [INFO] Modell synchronisiert.
+2025-07-30 12:36:21,270 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:21,370 [INFO] Modell synchronisiert.
+2025-07-30 12:36:21,540 [INFO] [P2] Neues Spiel gestartet.
+2025-07-30 12:36:22,824 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_5_8" class="cell size24 hdd_closed"> is not clickable at point (170,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871780&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871780512&bpp=2&bdt=649&idt=162&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5695456829313&frm=20&pv=1&u_tz=120&u_his=5&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093671%2C95362656%2C95366913%2C31093631%2C95344790%2C95359265%2C95367171&oid=2&pvsid=6554350575767974&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=166"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:23,238 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:24,207 [INFO] [P0] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:24,331 [INFO] Modell synchronisiert.
+2025-07-30 12:36:24,531 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_1_7" class="cell size24 hdd_closed"> is not clickable at point (74,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871780&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871780512&bpp=2&bdt=649&idt=162&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5695456829313&frm=20&pv=1&u_tz=120&u_his=5&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093671%2C95362656%2C95366913%2C31093631%2C95344790%2C95359265%2C95367171&oid=2&pvsid=6554350575767974&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=166"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:24,753 [INFO] [P1] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:24,765 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_3_8" class="cell size24 hdd_closed"> is not clickable at point (122,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871780&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871780512&bpp=2&bdt=649&idt=162&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5695456829313&frm=20&pv=1&u_tz=120&u_his=5&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093671%2C95362656%2C95366913%2C31093631%2C95344790%2C95359265%2C95367171&oid=2&pvsid=6554350575767974&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=166"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:24,871 [INFO] Modell synchronisiert.
+2025-07-30 12:36:26,110 [INFO] [P2] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:26,214 [INFO] [P0] Neues Spiel gestartet.
+2025-07-30 12:36:26,219 [WARNING] Fehler beim Laden des Modells: File not found: filepath=cnn_model.keras. Please ensure the file is an accessible `.keras` zip file. (Versuch 1/10)
+2025-07-30 12:36:26,246 [INFO] Modell synchronisiert.
+2025-07-30 12:36:26,750 [INFO] [P1] Neues Spiel gestartet.
+2025-07-30 12:36:26,797 [WARNING] [P3] Klickfehler: Message: Element <div id="cell_2_8" class="cell size24 hdd_closed"> is not clickable at point (98,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871782&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871782186&bpp=1&bdt=643&idt=165&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D29ad575f84b67e82%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjbwbLPjDl0ZVo8c6gxkfknR&prev_fmts=0x0&nras=1&correlator=6707312187234&frm=20&pv=1&u_tz=120&u_his=7&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362655%2C95366913%2C95366850%2C95359266%2C95367168&oid=2&pvsid=1757187002690944&tmod=913216378&uas=0&nvt=1&fc=1920&brdim=1913%2C1096%2C1913%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=170"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:28,120 [INFO] [P2] Neues Spiel gestartet.
+2025-07-30 12:36:28,241 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:28,419 [INFO] Modell synchronisiert.
+2025-07-30 12:36:28,858 [WARNING] [P0] Klickfehler: Message: Element <div id="cell_5_8" class="cell size24 hdd_closed"> is not clickable at point (170,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871785&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871785184&bpp=1&bdt=682&idt=179&shv=r20250728&mjsv=m202507240101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Dc12dd5f244f45dd6%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-Afjb_wcU_EKqvV0nNgesfgmJp&prev_fmts=0x0&nras=1&correlator=5562078268431&frm=20&pv=1&u_tz=120&u_his=5&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093040%2C31093672%2C95362655%2C95366914%2C31093655%2C95366852%2C95359265%2C95367170&oid=2&pvsid=6189349772963376&tmod=9981979&uas=0&nvt=1&fc=1920&brdim=2873%2C556%2C2873%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=186"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:30,346 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:30,788 [INFO] [P0] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:30,977 [INFO] Modell synchronisiert.
+2025-07-30 12:36:31,144 [WARNING] [P3] Klickfehler: Message: Element <div id="cell_6_8" class="cell size24 hdd_closed"> is not clickable at point (194,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871789&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871789329&bpp=1&bdt=676&idt=190&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D29ad575f84b67e82%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjbwbLPjDl0ZVo8c6gxkfknR&prev_fmts=0x0&nras=1&correlator=4411575690951&frm=20&pv=1&u_tz=120&u_his=9&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093671%2C95362655%2C95363278%2C95363799%2C95365698%2C95366914%2C95344789%2C95359266%2C95367169&oid=2&pvsid=1668170168685733&tmod=913216378&uas=0&nvt=1&fc=1920&brdim=1913%2C1096%2C1913%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=201"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:31,412 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_2_8" class="cell size24 hdd_closed"> is not clickable at point (98,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871785&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871785713&bpp=1&bdt=663&idt=165&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=4799467101184&frm=20&pv=1&u_tz=120&u_his=7&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093671%2C95362655%2C95366915%2C95366854%2C95359266%2C95367170&oid=2&pvsid=5634221094215396&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=171"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:32,128 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_2_7" class="cell size24 hdd_closed"> is not clickable at point (98,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871787&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871787084&bpp=2&bdt=635&idt=162&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=3680324598729&frm=20&pv=1&u_tz=120&u_his=7&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95364960%2C95366915%2C31093631%2C95344790%2C95359266%2C95367166&oid=2&pvsid=3401425780964374&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=168"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:32,462 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_4_7" class="cell size24 hdd_closed"> is not clickable at point (146,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871787&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871787084&bpp=2&bdt=635&idt=162&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=3680324598729&frm=20&pv=1&u_tz=120&u_his=7&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95364960%2C95366915%2C31093631%2C95344790%2C95359266%2C95367166&oid=2&pvsid=3401425780964374&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=168"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:32,673 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_0_8" class="cell size24 hdd_closed"> is not clickable at point (50,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871785&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871785713&bpp=1&bdt=663&idt=165&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=4799467101184&frm=20&pv=1&u_tz=120&u_his=7&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093671%2C95362655%2C95366915%2C95366854%2C95359266%2C95367170&oid=2&pvsid=5634221094215396&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=171"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:32,934 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:33,089 [INFO] [P0] Neues Spiel gestartet.
+2025-07-30 12:36:33,096 [WARNING] Fehler beim Laden des Modells: File not found: filepath=cnn_model.keras. Please ensure the file is an accessible `.keras` zip file. (Versuch 1/10)
+2025-07-30 12:36:33,098 [INFO] Modell synchronisiert.
+2025-07-30 12:36:33,799 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_4_7" class="cell size24 hdd_closed"> is not clickable at point (146,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871787&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871787084&bpp=2&bdt=635&idt=162&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=3680324598729&frm=20&pv=1&u_tz=120&u_his=7&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95364960%2C95366915%2C31093631%2C95344790%2C95359266%2C95367166&oid=2&pvsid=3401425780964374&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=168"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:34,186 [INFO] [P1] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:34,296 [INFO] Modell synchronisiert.
+2025-07-30 12:36:34,628 [WARNING] [P0] Klickfehler: Message: Element <div id="cell_6_7" class="cell size24 hdd_closed"> is not clickable at point (194,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871792&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871792072&bpp=1&bdt=762&idt=216&shv=r20250728&mjsv=m202507240101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Dc12dd5f244f45dd6%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-Afjb_wcU_EKqvV0nNgesfgmJp&prev_fmts=0x0&nras=1&correlator=21696288271&frm=20&pv=1&u_tz=120&u_his=7&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95366913%2C31093655%2C95344787%2C95359266%2C95367169&oid=2&pvsid=1413293785911499&tmod=9981979&uas=0&nvt=1&fc=1920&brdim=2873%2C556%2C2873%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=222"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:35,051 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:36,143 [INFO] [P1] Neues Spiel gestartet.
+2025-07-30 12:36:36,508 [INFO] [P2] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:36,637 [INFO] Modell synchronisiert.
+2025-07-30 12:36:36,698 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:36,819 [INFO] Modell synchronisiert.
+2025-07-30 12:36:37,820 [INFO] [P1] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:37,927 [INFO] Modell synchronisiert.
+2025-07-30 12:36:38,554 [INFO] [P2] Neues Spiel gestartet.
+2025-07-30 12:36:38,817 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:39,049 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_6_8" class="cell size24 hdd_closed"> is not clickable at point (194,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871797&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871797505&bpp=1&bdt=626&idt=134&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5462312287852&frm=20&pv=1&u_tz=120&u_his=9&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093672%2C95362655%2C95366915%2C31093631%2C95366851%2C95359265%2C95367170&oid=2&pvsid=8436004380130657&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=140"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:39,293 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_1_8" class="cell size24 hdd_closed"> is not clickable at point (74,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871797&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871797505&bpp=1&bdt=626&idt=134&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5462312287852&frm=20&pv=1&u_tz=120&u_his=9&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093672%2C95362655%2C95366915%2C31093631%2C95366851%2C95359265%2C95367170&oid=2&pvsid=8436004380130657&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=140"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:39,586 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_2_8" class="cell size24 hdd_closed"> is not clickable at point (98,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871797&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871797505&bpp=1&bdt=626&idt=134&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5462312287852&frm=20&pv=1&u_tz=120&u_his=9&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093672%2C95362655%2C95366915%2C31093631%2C95366851%2C95359265%2C95367170&oid=2&pvsid=8436004380130657&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=140"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:39,969 [INFO] [P1] Neues Spiel gestartet.
+2025-07-30 12:36:40,578 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:40,606 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_1_7" class="cell size24 hdd_closed"> is not clickable at point (74,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871797&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871797505&bpp=1&bdt=626&idt=134&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5462312287852&frm=20&pv=1&u_tz=120&u_his=9&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093672%2C95362655%2C95366915%2C31093631%2C95366851%2C95359265%2C95367170&oid=2&pvsid=8436004380130657&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=140"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:40,692 [INFO] Modell synchronisiert.
+2025-07-30 12:36:41,065 [INFO] [P0] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:41,176 [INFO] Modell synchronisiert.
+2025-07-30 12:36:42,039 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_6_7" class="cell size24 hdd_closed"> is not clickable at point (194,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871799&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871798900&bpp=1&bdt=674&idt=146&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=7407981265124&frm=20&pv=1&u_tz=120&u_his=11&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093040%2C31093672%2C95362656%2C95366176%2C95366914%2C95367555%2C95352051%2C95359266%2C95367166&oid=2&pvsid=1463299556151345&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=154"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:42,407 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_0_8" class="cell size24 hdd_closed"> is not clickable at point (50,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871797&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871797505&bpp=1&bdt=626&idt=134&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5462312287852&frm=20&pv=1&u_tz=120&u_his=9&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093672%2C95362655%2C95366915%2C31093631%2C95366851%2C95359265%2C95367170&oid=2&pvsid=8436004380130657&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=140"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:42,578 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:43,008 [INFO] [P0] Neues Spiel gestartet.
+2025-07-30 12:36:43,793 [WARNING] [P3] Klickfehler: Message: Element <div id="cell_2_7" class="cell size24 hdd_closed"> is not clickable at point (98,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871801&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871801485&bpp=1&bdt=594&idt=139&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D29ad575f84b67e82%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjbwbLPjDl0ZVo8c6gxkfknR&prev_fmts=0x0&nras=1&correlator=8001703916061&frm=20&pv=1&u_tz=120&u_his=15&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95365699%2C95366913%2C42533293%2C95366850%2C95359266%2C95367165&oid=2&pvsid=5977372700052919&tmod=913216378&uas=0&nvt=1&fc=1920&brdim=1913%2C1096%2C1913%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=146"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:43,821 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_7_7" class="cell size24 hdd_closed"> is not clickable at point (218,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871799&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871798900&bpp=1&bdt=674&idt=146&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=7407981265124&frm=20&pv=1&u_tz=120&u_his=11&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093040%2C31093672%2C95362656%2C95366176%2C95366914%2C95367555%2C95352051%2C95359266%2C95367166&oid=2&pvsid=1463299556151345&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=154"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:44,032 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_6_7" class="cell size24 hdd_closed"> is not clickable at point (194,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871799&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871798900&bpp=1&bdt=674&idt=146&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=7407981265124&frm=20&pv=1&u_tz=120&u_his=11&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093040%2C31093672%2C95362656%2C95366176%2C95366914%2C95367555%2C95352051%2C95359266%2C95367166&oid=2&pvsid=1463299556151345&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=154"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:44,104 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_2_7" class="cell size24 hdd_closed"> is not clickable at point (98,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871797&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871797505&bpp=1&bdt=626&idt=134&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=5462312287852&frm=20&pv=1&u_tz=120&u_his=9&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093672%2C95362655%2C95366915%2C31093631%2C95366851%2C95359265%2C95367170&oid=2&pvsid=8436004380130657&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=140"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:44,238 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_0_7" class="cell size24 hdd_closed"> is not clickable at point (50,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871799&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871798900&bpp=1&bdt=674&idt=146&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=7407981265124&frm=20&pv=1&u_tz=120&u_his=11&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093040%2C31093672%2C95362656%2C95366176%2C95366914%2C95367555%2C95352051%2C95359266%2C95367166&oid=2&pvsid=1463299556151345&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=154"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:44,538 [INFO] [P2] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:44,626 [INFO] Modell synchronisiert.
+2025-07-30 12:36:44,653 [WARNING] [P3] Klickfehler: Message: Element <div id="cell_0_7" class="cell size24 hdd_closed"> is not clickable at point (50,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871801&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871801485&bpp=1&bdt=594&idt=139&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D29ad575f84b67e82%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjbwbLPjDl0ZVo8c6gxkfknR&prev_fmts=0x0&nras=1&correlator=8001703916061&frm=20&pv=1&u_tz=120&u_his=15&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95365699%2C95366913%2C42533293%2C95366850%2C95359266%2C95367165&oid=2&pvsid=5977372700052919&tmod=913216378&uas=0&nvt=1&fc=1920&brdim=1913%2C1096%2C1913%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=146"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:45,117 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_5_8" class="cell size24 hdd_closed"> is not clickable at point (170,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871799&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871798900&bpp=1&bdt=674&idt=146&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=7407981265124&frm=20&pv=1&u_tz=120&u_his=11&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093040%2C31093672%2C95362656%2C95366176%2C95366914%2C95367555%2C95352051%2C95359266%2C95367166&oid=2&pvsid=1463299556151345&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=154"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:46,012 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_2_7" class="cell size24 hdd_closed"> is not clickable at point (98,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871799&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871798900&bpp=1&bdt=674&idt=146&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=7407981265124&frm=20&pv=1&u_tz=120&u_his=11&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093040%2C31093672%2C95362656%2C95366176%2C95366914%2C95367555%2C95352051%2C95359266%2C95367166&oid=2&pvsid=1463299556151345&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=154"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:46,452 [INFO] [P2] Neues Spiel gestartet.
+2025-07-30 12:36:46,899 [INFO] [P0] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:46,912 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_5_7" class="cell size24 hdd_closed"> is not clickable at point (170,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871799&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871798900&bpp=1&bdt=674&idt=146&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=7407981265124&frm=20&pv=1&u_tz=120&u_his=11&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093040%2C31093672%2C95362656%2C95366176%2C95366914%2C95367555%2C95352051%2C95359266%2C95367166&oid=2&pvsid=1463299556151345&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=154"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:46,991 [INFO] Modell synchronisiert.
+2025-07-30 12:36:47,476 [INFO] [P1] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:47,570 [INFO] Modell synchronisiert.
+2025-07-30 12:36:47,728 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:47,920 [INFO] Modell synchronisiert.
+2025-07-30 12:36:48,817 [INFO] [P0] Neues Spiel gestartet.
+2025-07-30 12:36:49,430 [INFO] [P1] Neues Spiel gestartet.
+2025-07-30 12:36:49,519 [INFO] [P2] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:49,621 [INFO] Modell synchronisiert.
+2025-07-30 12:36:49,771 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:51,510 [INFO] [P2] Neues Spiel gestartet.
+2025-07-30 12:36:52,004 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:52,104 [WARNING] [P2] Klickfehler: Message: Element <div id="cell_8_7" class="cell size24 hdd_closed"> is not clickable at point (242,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871810&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871810662&bpp=1&bdt=815&idt=132&shv=r20250728&mjsv=m202507230101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Df2169b8505428644%3AT%3D1753871812%3ART%3D1753871812%3AS%3DAA-AfjZ65nnkZua_sz3WleH3Vy-w&prev_fmts=0x0&nras=1&correlator=6449265706865&frm=20&pv=1&u_tz=120&u_his=13&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95366915%2C31093631%2C95366847%2C95359265%2C95367169&oid=2&pvsid=2253500129021683&tmod=1373529221&uas=0&nvt=1&fc=1920&brdim=1913%2C556%2C1913%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=137"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:52,135 [INFO] Modell synchronisiert.
+2025-07-30 12:36:53,358 [INFO] [P2] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:53,449 [INFO] Modell synchronisiert.
+2025-07-30 12:36:54,020 [INFO] [P3] Neues Spiel gestartet.
+2025-07-30 12:36:54,254 [INFO] [P0] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:54,354 [INFO] Modell synchronisiert.
+2025-07-30 12:36:54,886 [WARNING] [P1] Klickfehler: Message: Element <div id="cell_2_8" class="cell size24 hdd_closed"> is not clickable at point (98,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871808&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871808367&bpp=1&bdt=624&idt=138&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D20c303108f16d9d8%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjZpEgL2X7l2ofTL2FGSOsmW&prev_fmts=0x0&nras=1&correlator=4556924656160&frm=20&pv=1&u_tz=120&u_his=13&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95363277%2C95366915%2C95366846%2C95359265%2C95367171&oid=2&pvsid=1038311290321463&tmod=1157630388&uas=0&nvt=1&fc=1920&brdim=2873%2C1096%2C2873%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=145"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:55,247 [INFO] [P2] Neues Spiel gestartet.
+2025-07-30 12:36:56,133 [WARNING] [P3] Klickfehler: Message: Element <div id="cell_4_8" class="cell size24 hdd_closed"> is not clickable at point (146,395) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871813&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871812959&bpp=1&bdt=614&idt=142&shv=r20250728&mjsv=m202507220101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3D29ad575f84b67e82%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-AfjbwbLPjDl0ZVo8c6gxkfknR&prev_fmts=0x0&nras=1&correlator=200339619782&frm=20&pv=1&u_tz=120&u_his=19&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=31093671%2C42532524%2C95362656%2C95366914%2C95366851%2C95359265%2C95367169&oid=2&pvsid=1881382732907755&tmod=913216378&uas=0&nvt=1&fc=1920&brdim=1913%2C1096%2C1913%2C1096%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=148"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:56,216 [INFO] [P0] Neues Spiel gestartet.
+2025-07-30 12:36:57,049 [INFO] [P1] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:57,165 [INFO] Modell synchronisiert.
+2025-07-30 12:36:57,693 [INFO] [P3] Spiel vorbei. Belohnung: -100. Training...
+2025-07-30 12:36:57,812 [INFO] Modell synchronisiert.
+2025-07-30 12:36:57,821 [WARNING] [P0] Klickfehler: Message: Element <div id="cell_0_7" class="cell size24 hdd_closed"> is not clickable at point (50,371) because another element <iframe id="aswift_1" name="aswift_1" src="https://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-4086670401558887&output=html&h=90&slotname=8454153205&adk=2897132544&adf=1089786745&pi=t.ma~as.8454153205&w=958&abgtt=6&fwrn=4&fwrnh=100&lmt=1753871815&rafmt=2&format=958x90&url=https%3A%2F%2Fminesweeper.online%2Fgame%2F4875759543&fwr=0&rpe=1&resp_fmts=2&wgl=1&dt=1753871815182&bpp=2&bdt=621&idt=134&shv=r20250728&mjsv=m202507240101&ptt=9&saldr=aa&abxe=1&eo_id_str=ID%3Dc12dd5f244f45dd6%3AT%3D1753871811%3ART%3D1753871811%3AS%3DAA-Afjb_wcU_EKqvV0nNgesfgmJp&prev_fmts=0x0&nras=1&correlator=327217809222&frm=20&pv=1&u_tz=120&u_his=13&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=361&biw=958&bih=454&scr_x=0&scr_y=0&eid=95362656%2C95366913%2C31093655%2C95366852%2C95359266%2C95367170&oid=2&pvsid=7577566323960864&tmod=9981979&uas=0&nvt=1&fc=1920&brdim=2873%2C556%2C2873%2C556%2C1920%2C556%2C974%2C547%2C958%2C454&vis=1&rsz=%7C%7CfeE%7C&abl=CF&pfx=0&fu=128&bc=31&bz=1.02&ifi=2&uci=a!2&fsb=1&dtd=141"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:351:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-07-30 12:36:59,046 [INFO] [P1] Neues Spiel gestartet.
