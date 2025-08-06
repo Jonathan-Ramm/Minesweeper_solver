@@ -131,10 +131,10 @@ def read_field():
         elif "hdd_type8" in classes: feld.append(8)
         elif "hdd_closed" in classes: feld.append(-1)
         else: feld.append(-2)
-    return np.array(feld).reshape(9, 9)
+    return np.array(feld).reshape(16, 30    )
 
 def play_single_game(process_id):
-    driver.get("https://minesweeper.online/game/4875759543")
+    driver.get("https://minesweeper.online/game/4899794937")
     time.sleep(5)
     # Fenster-Titel setzen für bessere Übersicht
     driver.execute_script(f"document.title = 'Process {process_id}'")
