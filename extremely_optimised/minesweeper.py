@@ -621,6 +621,14 @@ class GUI:
         "flag": (255, 0, 0),
         "mine": (0, 0, 0),
         "text": (0, 0, 255),
+        "1": (0, 0, 255),
+        "2": (0, 128, 0),
+        "3": (255, 0, 0),
+        "4": (128, 0, 128),
+        "5": (128, 0, 0),
+        "6": (0, 128, 128),
+        "7": (0, 0, 0),
+        "8": (128, 128, 128),
         "bg": (128, 128, 128),
         "button": (100, 100, 100),
         "button_hover": (150, 150, 150),
@@ -724,7 +732,10 @@ class GUI:
                     pygame.draw.rect(self.screen, self.COLORS["uncovered"], rect)
                     val = self.game.board[y, x]
                     if val > 0:
-                        txt = self.font.render(str(val), True, self.COLORS["text"])
+                        for i in range(1, 9):
+                            if val == i:
+                                txt = self.font.render(str(val), True, self.COLORS[str(i)])
+                                break
                         self.screen.blit(txt, (x * self.CELL_SIZE + 5, y * self.CELL_SIZE + 2))
                     elif val == -1:
                         pygame.draw.circle(self.screen, self.COLORS["mine"], rect.center, self.CELL_SIZE // 3)
